@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.nosolojava.omnichannel</groupId>
+		<artifactId>omnichannel-project</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>omnichannel-omnisession-layer</artifactId>
+	<description>handle multiple devices sessions for one user like if just one session is alive</description>
+	<dependencies>
+		<!-- infinispan -->
+		<dependency>
+			<groupId>org.infinispan</groupId>
+			<artifactId>infinispan-core</artifactId>
+			<version>7.2.1.Final</version>
+		</dependency>
+		<!-- test -->
+		<dependency>
+			<groupId>org.infinispan</groupId>
+			<artifactId>infinispan-embedded</artifactId>
+			<version>7.2.1.Final</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+</project>
